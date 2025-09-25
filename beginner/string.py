@@ -63,3 +63,6 @@ lan = "python programming language"
 
 print(lan[:6:])
 print(lan[:-9:-1])
+print(lan[5::-1])
+print(lan[-8::1])
+print(lan[::-1])
