@@ -6,15 +6,18 @@ print("hello world")
 # ''
 # ""
 # ''''''
-# 
-# 
-# 
 
-# index 
+
+# indexing :: 
+#         use [] braces to acess indeing o the char individually
+'''
 institute = "the kiran academy "
 
 print(institute[0])
 print(institute[-8])
+
+'''
+
 
 
 
