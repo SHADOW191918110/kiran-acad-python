@@ -40,3 +40,4 @@ print(dictneary)
 # -----------------------------------------------------#
 
 # function prime number annd n number 
+
