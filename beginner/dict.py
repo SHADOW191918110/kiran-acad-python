@@ -21,13 +21,20 @@ DICTIONARY :
             ex:
                 emp{1:'hello',2:'hello',3:{'name':'hello'}}
 '''
+from typing import Dict
 
-
+# nested dict 
 jbk = {
-    'facuilty':{'f101':{'name':'om','salery':50000},
-               'f102':{'name':'shanti','salery':40000}},
-    'operation':{'O101':{'name':'sai','salery':30000},
-               'O102':{'name':'sakshi','salery':20000}}
+    'facuilty':{
+        'f101':{'name':'om','salery':50000},
+        'f102':{'name':'shanti','salery':40000}
+               },
+    'operation':{
+        'O101':{'name':'sai','salery':30000},
+        'O102':{'name':'sakshi','salery':20000}
+               }
 }
 
-print(jbk)
+
+jbk.clear()
+print()
