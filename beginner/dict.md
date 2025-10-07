@@ -17,12 +17,15 @@ square = {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
 print(type(square))  # <class 'dict'>
 ```
 
-Keys must be unique and immutable (e.g., strings, integers, or tuples), while values can be any data type and may be duplicated.
+Keys must be unique and immutable
+(e.g., strings, integers, or tuples), while values can be any data type and may be duplicated.
 
 ## Key Characteristics
 
 - **Uniqueness of Keys**: Each key must be unique. If a duplicate key is used, the last value assigned to that key will overwrite the previous one.
-- **Immutability of Keys**: Keys must be of an immutable type such as strings, integers, or tuples. Mutable types like lists cannot be used as keys.
+
+- **Immutability of Keys**: Keys must be of an immutable type such as strings, integers, or tuples. Mutable types like lists cannot be used as keys..
+
 - **Mutability of Dictionary**: The dictionary itself is mutable—meaning you can add, modify, or remove key-value pairs after creation.
 
 For instance:
