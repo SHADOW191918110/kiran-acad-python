@@ -1,3 +1,4 @@
+# Dictionary
 
 A **dictionary** in Python is a collection of comma-separated key-value pairs enclosed within curly braces `{}`. It is an ordered, mutable, and indexed data structure that does not allow duplicate keys. From Python 3.7 onward, dictionaries maintain insertion order.
 
@@ -57,3 +58,8 @@ Python provides several built-in methods for manipulating dictionaries:
 | `values()` | Returns a view of all values  |
 
 These methods allow efficient access, modification, and traversal of dictionary data. For example, `items()` enables iterating over both keys and values simultaneously.
+
+
+
+
+

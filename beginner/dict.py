@@ -36,5 +36,15 @@ jbk = {
 }
 
 
-jbk.clear()
+# jbk.clear()
 print()
+
+print(jbk.items())
+print()
+print(jbk.keys())
+print()
+print(jbk.values())
+print()
+print(jbk[operation][O101].update(name="sa"))
+
+print(jbk)
