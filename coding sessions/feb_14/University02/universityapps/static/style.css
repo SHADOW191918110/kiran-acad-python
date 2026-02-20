@@ -1,0 +1,30 @@
+/* Custom Background for the whole page */
+body {
+    background-color: #f0f2f5 !important; /* Light gray-blue background */
+}
+
+/* Custom Navbar Color (overrides bg-primary) */
+.bg-primary {
+    background-color: #0d6efd !important; /* Bootstrap Blue */
+    /* To change color: Try #4a148c (Purple) or #198754 (Green) */
+}
+
+/* Make the Main Content Card pop */
+main .bg-white {
+    transition: transform 0.2s;
+}
+
+main .bg-white:hover {
+    transform: translateY(-2px); /* Subtle lift effect */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+/* Custom Text Colors */
+h1, h2, h3 {
+    color: #2c3e50; /* Dark Blue-Grey for headings */
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
